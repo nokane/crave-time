@@ -81,13 +81,13 @@ The value of `invalidLinesCount` is an aggregated count of all the lines in the 
 
 You can install this package via `npm` by running the following command
 
-`npm install @nokane/crave-time`
+`npm install crave-time`
 
 ### Example usage of `evaluateLogFile`
 
 ```
 import path from 'path';
-import { evaluateLogFile } from '@nokane/crave-time';
+import { evaluateLogFile } from 'crave-time';
 
 const fileName = 'orders.txt';
 const logLocation = path.resolve(__dirname, "data", fileName);
