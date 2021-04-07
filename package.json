@@ -1,6 +1,6 @@
 {
   "name": "crave-time",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A package that parses delivery times",
   "repository": "git://github.com/nokane/crave-time.git",
   "publishConfig": {
@@ -25,7 +25,8 @@
     "chai": "^4.3.4",
     "chai-as-promised": "^7.1.1",
     "mocha": "^8.3.2",
-    "ts-node": "^9.1.1"
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
   },
   "dependencies": {
     "fs": "^0.0.1-security",
